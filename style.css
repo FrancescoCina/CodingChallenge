@@ -1,0 +1,68 @@
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+#contenitore{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 700px;
+    height: 450px;
+    margin: auto;
+}
+header{
+  color: rgb(0,221,0);
+  margin: 50px;
+  text-align: center;
+  height: 75px;
+  line-height: 15px;
+  padding-top: 20px;
+}
+.contenitore_bottoni{
+  background-color: rgb(0,221,0);
+  line-height: 20px;
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  padding: 9px;
+}
+#prenota{
+  width: 70px;
+  height: 20px;
+}
+#termina{
+  width: 200px;
+  height: 20px;
+}
+#accendi{
+  width: 135px;
+  height: 20px;
+}
+.gino22, .mike24, .fede154{
+  margin-top: 5px;
+  position: relative;
+  left: 55px;
+  font-size: 11px;
+}
+label{
+  font-size: 15px;
+}
+#caricabassa, #caricaalta, #caricamedia{
+  height: 10px;
+  padding: 2px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+#caricabassa{
+  background-color: rgb(255,0,0);
+  width: 15%;
+}
+#caricamedia{
+  background-color: rgb(255,128,0);
+  width: 25%;
+}
+#caricaalta{
+  background-color: rgb(0,221,0);
+  width: 40%;
+}
